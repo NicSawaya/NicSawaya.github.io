@@ -10,19 +10,26 @@ Welcome to my portfolio. I build atmospheric, systems‑driven games with a focu
 
 ---
 
-## **Projects**
+## Projects
 
-### **Project Title 1**
-Short description goes here.  
+<div class="project-card">
+<strong>Project Title 1</strong><br>
+Short description goes here.<br>
 [View Project](projects/project1.md)
+</div>
 
-### **Project Title 2**
-Short description goes here.  
+<div class="project-card">
+<strong>Project Title 2</strong><br>
+Short description goes here.<br>
 [View Project](projects/project2.md)
+</div>
 
-### **Project Title 3**
-Short description goes here.  
+<div class="project-card">
+<strong>Project Title 3</strong><br>
+Short description goes here.<br>
 [View Project](projects/project3.md)
+</div>
+
 
 ---
 
