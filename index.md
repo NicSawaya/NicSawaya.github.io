@@ -1,9 +1,6 @@
 {% include header.html %}
 
 ---
-layout: default
-title: "Nic Sawaya"
----
 
 ## About Me {#about}
 
@@ -26,22 +23,32 @@ I’m obsessed with iteration, polish, and building systems that empower players
 ## Projects
 
 <div class="project-card">
-<strong>Project Title 1</strong><br>
-Short description goes here.<br>
-[View Project](projects/project1.md)
+  <img src="assets/images/project1.png" class="project-thumb">
+  <div class="project-info">
+    <h3>Project Title 1</h3>
+    <p>A short description of the project goes here. Clean, modern, and readable.</p>
+    <a class="project-btn" href="/projects/project1.md">View Project</a>
+  </div>
 </div>
 
 <div class="project-card">
-<strong>Project Title 2</strong><br>
-Short description goes here.<br>
-[View Project](projects/project2.md)
+  <img src="assets/images/project2.png" class="project-thumb">
+  <div class="project-info">
+    <h3>Project Title 2</h3>
+    <p>A short description of the project goes here. Clean, modern, and readable.</p>
+    <a class="project-btn" href="/projects/project2.md">View Project</a>
+  </div>
 </div>
 
 <div class="project-card">
-<strong>Project Title 3</strong><br>
-Short description goes here.<br>
-[View Project](projects/project3.md)
+  <img src="assets/images/project3.png" class="project-thumb">
+  <div class="project-info">
+    <h3>Project Title 3</h3>
+    <p>A short description of the project goes here. Clean, modern, and readable.</p>
+    <a class="project-btn" href="/projects/project3.md">View Project</a>
+  </div>
 </div>
+
 
 
 ---
