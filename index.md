@@ -56,7 +56,6 @@ title: "Nic Sawaya"
           <span class="tag">C++</span>
         </div>
         <h3>Orbit Protocol</h3>
-        <p>Retro futrisitic FPS set aboard a collapsed colony space ship. </p>
         <a class="project-btn" href="/projects/orbit-protocol">View Project</a>
       </div>
     </div>
