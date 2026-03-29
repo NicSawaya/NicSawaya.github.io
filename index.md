@@ -125,7 +125,7 @@ title: "Nic Sawaya"
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
     </div>
     <div class="skill-item">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" alt="Unreal Engine">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original-wordmark.svg" alt="Unreal Engine">
     </div>
     <div class="skill-item">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" alt="Qt Creator">
