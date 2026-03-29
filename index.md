@@ -12,8 +12,8 @@ title: "Nic Sawaya"
       I'm a game developer focused on building atmospheric, systems‑driven experiences
       with clean mechanics and strong visual identity. My work blends retro‑futuristic
       aesthetics, modular gameplay systems, and tight moment‑to‑moment feel.
-  </p>
-    <!--   <div class="hero-stats">
+    </p>
+    <div class="hero-stats">
       <div class="stat">
         <span class="stat-number">2+</span>
         <span class="stat-label">Years Experience</span>
@@ -25,7 +25,16 @@ title: "Nic Sawaya"
       <div class="stat">
         <span class="stat-number">2</span>
         <span class="stat-label">Engines Used</span>
-      </div> -->
+      </div>
+    </div>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-secondary">Contact</a>
+      <a href="#" class="btn-secondary">Resume</a>
+    </div>
+  </div>
+</section>
+
 <hr>
 
 <section id="projects">
@@ -38,30 +47,30 @@ title: "Nic Sawaya"
   </div>
   <div class="project-grid">
     <a class="project-card" data-category="game" href="/projects/orbit-protocol">
-  <img src="assets/images/OrbitLogoV1.png" class="project-thumb" alt="Orbit Protocol">
-  <div class="project-tags-top">
-    <span class="tag">Unreal Engine</span>
-    <span class="tag">FPS</span>
-    <span class="tag">Roguelite</span>
-    <span class="tag">C++</span>
-  </div>
-  <div class="project-title-bottom">
-    <h3>Orbit Protocol</h3>
-  </div>
-</a>
+      <img src="assets/images/OrbitLogoV1.png" class="project-thumb" alt="Orbit Protocol">
+      <div class="project-tags-top">
+        <span class="tag">Unreal Engine</span>
+        <span class="tag">FPS</span>
+        <span class="tag">Roguelite</span>
+        <span class="tag">C++</span>
+      </div>
+      <div class="project-title-bottom">
+        <h3>Orbit Protocol</h3>
+      </div>
+    </a>
   </div>
 </section>
 
 <script>
   const filterBtns = document.querySelectorAll('.filter-btn');
   const cards = document.querySelectorAll('.project-card');
- 
+
   cards.forEach(card => {
     if (card.dataset.category !== 'game') {
       card.classList.add('hidden');
     }
   });
- 
+
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       filterBtns.forEach(b => b.classList.remove('active'));
@@ -83,47 +92,35 @@ title: "Nic Sawaya"
 <section id="skills">
   <h2>Skills</h2>
   <p class="section-sub">Tools, technologies, and areas I work in.</p>
-
   <div class="skills-grid">
-
     <div class="skill-item">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
-      
     </div>
-
     <div class="skill-item">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" alt="Unreal Engine">
     </div>
-
     <div class="skill-item">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" alt="Qt Creator">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg" alt="Qt Creator">
     </div>
-
     <div class="skill-item">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-     
     </div>
-
     <div class="skill-item">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
-
-    </div>
-
-    <div class="skill-item">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /> 
     </div>
     <div class="skill-item">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg" alt="Premiere Pro">
-  
-</div>
-
-<div class="skill-item">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio">
-  
-</div>
-
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="SQL">
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg" alt="Premiere Pro">
+    </div>
+    <div class="skill-item">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio">
+    </div>
   </div>
 </section>
+
+<hr>
 
 <section id="contact">
   <h2>Contact</h2>
