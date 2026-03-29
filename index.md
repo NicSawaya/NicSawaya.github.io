@@ -41,8 +41,8 @@ title: "Nic Sawaya"
   <h2>Projects</h2>
   <p class="section-sub">A collection of games and prototypes I've built and iterated on.</p>
   <div class="filter-tabs">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="game">Games</button>
+    <button class="filter-btn active" data-filter="game">Games</button>
+    <button class="filter-btn" data-filter=app">Apps</button>
     <button class="filter-btn" data-filter="prototype">Prototypes</button>
   </div>
   <div class="project-grid">
