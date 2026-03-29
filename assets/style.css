@@ -345,10 +345,11 @@ footer {
 .skill-item img {
     width: 44px;
     height: 44px;
-    background: #222;
-    border-radius: 999px;
     padding: 10px;
-    border: 1px solid #3a3a3a;
     box-sizing: content-box;
     display: block;
+    background: #222;
+    border-radius: 999px;
+    border: 1px solid #3a3a3a;
+    outline: 1px solid #3a3a3a;
 }
