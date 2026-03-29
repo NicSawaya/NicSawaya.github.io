@@ -1,6 +1,4 @@
-/* ============================================================
-   GLOBAL
-   ============================================================ */
+
 body {
     background: #0d0d0d;
     color: #e6e6e6;
@@ -38,9 +36,9 @@ main {
     padding: 40px 20px;
 }
 
-/* ============================================================
-   HEADER
-   ============================================================ */
+
+   /* HEADER */
+  
 .site-header {
     width: 100%;
     background: #111;
@@ -79,9 +77,8 @@ main {
     text-shadow: 0 0 8px #4da6ff;
 }
 
-/* ============================================================
-   PROJECTS SECTION (filterable grid)
-   ============================================================ */
+  /* Projects*/
+  
 #projects {
     padding: 2rem 0;
 }
@@ -96,7 +93,7 @@ main {
     margin-bottom: 2rem;
 }
 
-/* Filter tabs */
+
 .filter-tabs {
     display: flex;
     gap: 0.75rem;
@@ -124,14 +121,14 @@ main {
     border-color: #4da6ff;
 }
 
-/* Grid */
+/* grid */
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 1.5rem;
 }
 
-/* Card — vertical layout for grid */
+/* cards vertical layout for grid */
 .project-card {
     background: #141414;
     border: 1px solid #222;
@@ -152,9 +149,9 @@ main {
     display: none;
 }
 
-/* Thumbnail — full width on top */
+/* Thumbnail */
 .project-thumb {
-    width: 100%;
+    width: 100%; /*full width on top */
     height: 180px;
     object-fit: cover;
     display: block;
@@ -170,7 +167,6 @@ main {
     flex: 1;
 }
 
-/* Tech tags */
 .project-tags {
     display: flex;
     flex-wrap: wrap;
@@ -199,7 +195,6 @@ main {
     line-height: 1.5;
 }
 
-/* Button */
 .project-btn {
     display: inline-block;
     padding: 0.45rem 1.1rem;
@@ -238,9 +233,8 @@ main {
     left: 120%;
 }
 
-/* ============================================================
-   SCREENSHOT GALLERY
-   ============================================================ */
+
+    /* Screenshots */
 .screenshot-row {
     display: flex;
     gap: 15px;
@@ -259,9 +253,6 @@ main {
     box-shadow: 0 0 12px rgba(77, 166, 255, 0.3);
 }
 
-/* ============================================================
-   FOOTER
-   ============================================================ */
 footer {
     text-align: center;
     padding: 2rem;
