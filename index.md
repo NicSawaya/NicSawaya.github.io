@@ -4,8 +4,6 @@
 layout: default
 title: "Nic Sawaya"
 ---
-
-
 ## About Me {#about}
 
 I’m a game developer focused on building atmospheric, systems‑driven experiences with clean mechanics and strong visual identity.  
