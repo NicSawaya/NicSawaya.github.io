@@ -3,39 +3,49 @@ layout: default
 title: "Nic Sawaya"
 ---
 
-
-<!-- ============================================================
-     HERO
-     ============================================================ -->
-## Hero {#hero}
-<!-- Profile photo -->
-<!-- Your name + tagline -->
-<!-- 2 CTA buttons: Contact | View Projects -->
-<!-- Quick stats row -->
-<!--   - X years experience -->
-<!--   - X projects shipped -->
-<!--   - X engines used -->
+<section id="about">
+  <div class="hero">
+    <img src="assets/images/profile.jpg" alt="Nic Sawaya" class="hero-photo">
+    <h1 class="hero-name">Nic Sawaya</h1>
+    <p class="hero-tagline">Game Developer · FPS Systems · Unreal Engine</p>
+    <p class="hero-bio">
+      I'm a game developer focused on building atmospheric, systems‑driven experiences
+      with clean mechanics and strong visual identity. My work blends retro‑futuristic
+      aesthetics, modular gameplay systems, and tight moment‑to‑moment feel.
+    </p>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-number">2+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">3+</span>
+        <span class="stat-label">Projects Shipped</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">2</span>
+        <span class="stat-label">Engines Used</span>
+      </div>
+    </div>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-secondary">Contact</a>
+      <a href="#" class="btn-secondary" id="resume-btn">Resume</a>
+    </div>
+  </div>
+</section>
 
 <hr>
-
-<!-- ============================================================
-     PROJECTS SECTION
-     ============================================================ -->
 
 <section id="projects">
   <h2>Projects</h2>
   <p class="section-sub">A collection of games and prototypes I've built and iterated on.</p>
-
-  <!-- Filter Tabs -->
   <div class="filter-tabs">
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="game">Games</button>
     <button class="filter-btn" data-filter="prototype">Prototypes</button>
   </div>
-
-  <!-- Project Cards -->
   <div class="project-grid">
-
     <div class="project-card" data-category="game">
       <img src="assets/images/OrbitLogoV1.png" class="project-thumb" alt="Orbit Protocol">
       <div class="project-info">
@@ -43,152 +53,24 @@ title: "Nic Sawaya"
           <span class="tag">Unreal Engine</span>
           <span class="tag">FPS</span>
           <span class="tag">Roguelite</span>
+          <span class="tag">C++</span>
         </div>
         <h3>Orbit Protocol</h3>
         <p>Rogue‑Lite Retro‑Futuristic FPS set aboard a collapsing 1970s space colony.</p>
         <a class="project-btn" href="/projects/orbit-protocol">View Project</a>
       </div>
     </div>
-
-    <!-- Add more cards here. Use data-category="game" or data-category="prototype" -->
-
   </div>
 </section>
-
-<style>
-  #projects {
-    padding: 4rem 2rem;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-
-  #projects h2 {
-    font-size: 2rem;
-    margin-bottom: 0.4rem;
-  }
-
-  .section-sub {
-    color: #888;
-    margin-bottom: 2rem;
-  }
-
-  .filter-tabs {
-    display: flex;
-    gap: 0.75rem;
-    margin-bottom: 2rem;
-  }
-
-  .filter-btn {
-    padding: 0.45rem 1.2rem;
-    border: 1px solid #444;
-    border-radius: 999px;
-    background: transparent;
-    color: inherit;
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: all 0.2s ease;
-  }
-
-  .filter-btn:hover {
-    border-color: #fff;
-  }
-
-  .filter-btn.active {
-    background: #fff;
-    color: #000;
-    border-color: #fff;
-  }
-
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-  }
-
-  .project-card {
-    background: #111;
-    border: 1px solid #222;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: transform 0.2s ease, border-color 0.2s ease;
-  }
-
-  .project-card:hover {
-    transform: translateY(-4px);
-    border-color: #555;
-  }
-
-  .project-card.hidden {
-    display: none;
-  }
-
-  .project-thumb {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    display: block;
-  }
-
-  .project-info {
-    padding: 1.2rem;
-  }
-
-  .project-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .tag {
-    font-size: 0.72rem;
-    padding: 0.2rem 0.6rem;
-    border-radius: 999px;
-    border: 1px solid #444;
-    color: #aaa;
-  }
-
-  .project-info h3 {
-    margin: 0 0 0.4rem;
-    font-size: 1.1rem;
-  }
-
-  .project-info p {
-    font-size: 0.88rem;
-    color: #aaa;
-    margin-bottom: 1rem;
-    line-height: 1.5;
-  }
-
-  .project-btn {
-    display: inline-block;
-    padding: 0.45rem 1.1rem;
-    border: 1px solid #555;
-    border-radius: 8px;
-    font-size: 0.85rem;
-    text-decoration: none;
-    color: inherit;
-    transition: all 0.2s ease;
-  }
-
-  .project-btn:hover {
-    background: #fff;
-    color: #000;
-    border-color: #fff;
-  }
-</style>
 
 <script>
   const filterBtns = document.querySelectorAll('.filter-btn');
   const cards = document.querySelectorAll('.project-card');
-
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       filterBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-
       const filter = btn.dataset.filter;
-
       cards.forEach(card => {
         if (filter === 'all' || card.dataset.category === filter) {
           card.classList.remove('hidden');
@@ -202,29 +84,15 @@ title: "Nic Sawaya"
 
 <hr>
 
-<!-- ============================================================
-     SKILLS
-     ============================================================ -->
-## Skills {#skills}
-<!-- Group 1: Engines & Tools -->
-<!--   Unreal Engine, Unity, Rider, Perforce, Git -->
-
-<!-- Group 2: Languages -->
-<!--   Blueprint, C++, GDScript, etc. -->
-
-<!-- Group 3: Specialties -->
-<!--   FPS Mechanics, Weapon Systems, Ability Frameworks -->
-<!--   UI/UX, Level Design, Worldbuilding -->
-
-<!-- Group 4: Soft Skills -->
-<!--   Iteration, Rapid Prototyping, Visual Identity -->
+<section id="skills">
+  <h2>Skills</h2>
+  <p class="section-sub">Tools, technologies, and areas I work in.</p>
+</section>
 
 <hr>
 
-<!-- ============================================================
-     CONTACT
-     ============================================================ -->
-## Contact {#contact}
-<!-- Email -->
-<!-- GitHub link -->
-<!-- Optional: Itch.io, LinkedIn, ArtStation -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p><strong>Email:</strong> your-email-here</p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/Nic-devv">github.com/Nic-devv</a></p>
+</section>
