@@ -262,9 +262,13 @@ footer {
     margin-top: 4rem;
 }
 .skill-item {
-    width: 60px; 
+    display: flex;
+    flex-direction: row;
+    align-item: center;
+    gap: 0.5rem;
+    width: auto; 
 }
 .skill-item img {
-    width: 36px; 
-    height: 36px; 
+    width: 44px; 
+    height: 44px; 
 }
