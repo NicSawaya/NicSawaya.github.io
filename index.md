@@ -13,7 +13,7 @@ title: "Nic Sawaya"
       with clean mechanics and strong visual identity. My work blends retro‑futuristic
       aesthetics, modular gameplay systems, and tight moment‑to‑moment feel.
     </p>
-   <!--  <div class="hero-stats">
+  <!--  <div class="hero-stats">
       <div class="stat">
         <span class="stat-number">2+</span>
         <span class="stat-label">Years Experience</span>
@@ -25,49 +25,104 @@ title: "Nic Sawaya"
       <div class="stat">
         <span class="stat-number">2</span>
         <span class="stat-label">Engines Used</span>
-      </div> 
-    </div>                                                      -->
+      </div>
+    </div>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">View Projects</a>
       <a href="#contact" class="btn-secondary">Contact</a>
-      <a href="#" class="btn-secondary">Résumé</a>
+      <a href="#" class="btn-secondary">Resume</a>
     </div>
-  </div>
+  </div> -->
 </section>
 
 <hr>
 
 <section id="projects">
   <h2>Projects</h2>
-  <p class="section-sub">A collection of games and apps I've built and iterated on.</p>
+  <p class="section-sub">A collection of games, apps, and prototypes I've built and iterated on.</p>
+
   <div class="filter-tabs">
     <button class="filter-btn active" data-filter="game">Games</button>
     <button class="filter-btn" data-filter="app">Apps</button>
     <button class="filter-btn" data-filter="prototype">Prototypes</button>
   </div>
-  <div class="project-grid">
-    <a class="project-card" data-category="game" href="/projects/orbit-protocol">
-      <img src="assets/images/OrbitLogoV1.png" class="project-thumb" alt="Orbit Protocol">
-      <div class="project-tags-top">
-        <span class="tag">Unreal Engine</span>
-        <span class="tag">FPS</span>
-        <span class="tag">Roguelite</span>
-        <span class="tag">C++</span>
+
+  <div class="project-list">
+
+    <!-- ORBIT PROTOCOL -->
+    <a class="project-row" data-category="game" href="/projects/orbit-protocol">
+      <div class="project-row-left">
+        <img src="assets/images/OrbitLogoV1.png" class="project-main-shot" alt="Orbit Protocol">
       </div>
-      <div class="project-title-bottom">
-        <h3>Orbit Protocol</h3>
+      <div class="project-row-right">
+        <div class="project-row-info">
+          <h3>Orbit Protocol</h3>
+          <div class="project-tags-row">
+            <span class="tag">Unreal Engine</span>
+            <span class="tag">FPS</span>
+            <span class="tag">Roguelite</span>
+            <span class="tag">C++</span>
+          </div>
+        </div>
+        <div class="project-thumbs-stack">
+          <img src="assets/images/orbit-screen1.png" alt="Screenshot 1">
+          <img src="assets/images/orbit-screen2.png" alt="Screenshot 2">
+          <img src="assets/images/orbit-screen3.png" alt="Screenshot 3">
+        </div>
       </div>
     </a>
+
+    <!-- PLACEHOLDER GAME -->
+    <a class="project-row" data-category="game" href="#">
+      <div class="project-row-left">
+        <img src="assets/images/placeholder-thumb.png" class="project-main-shot" alt="Project Title">
+      </div>
+      <div class="project-row-right">
+        <div class="project-row-info">
+          <h3>Project Title</h3>
+          <div class="project-tags-row">
+            <span class="tag">Unreal Engine</span>
+            <span class="tag">Coming Soon</span>
+          </div>
+        </div>
+        <div class="project-thumbs-stack">
+          <img src="assets/images/placeholder-screen1.png" alt="Screenshot 1">
+          <img src="assets/images/placeholder-screen2.png" alt="Screenshot 2">
+          <img src="assets/images/placeholder-screen3.png" alt="Screenshot 3">
+        </div>
+      </div>
+    </a>
+
+    <!-- PLACEHOLDER APP -->
+    <a class="project-row" data-category="app" href="#">
+      <div class="project-row-left">
+        <img src="assets/images/placeholder-app-thumb.png" class="project-main-shot" alt="App Title">
+      </div>
+      <div class="project-row-right">
+        <div class="project-row-info">
+          <h3>App Title</h3>
+          <div class="project-tags-row">
+            <span class="tag">Coming Soon</span>
+          </div>
+        </div>
+        <div class="project-thumbs-stack">
+          <img src="assets/images/placeholder-screen1.png" alt="Screenshot 1">
+          <img src="assets/images/placeholder-screen2.png" alt="Screenshot 2">
+          <img src="assets/images/placeholder-screen3.png" alt="Screenshot 3">
+        </div>
+      </div>
+    </a>
+
   </div>
 </section>
 
 <script>
   const filterBtns = document.querySelectorAll('.filter-btn');
-  const cards = document.querySelectorAll('.project-card');
+  const rows = document.querySelectorAll('.project-row');
 
-  cards.forEach(card => {
-    if (card.dataset.category !== 'game') {
-      card.classList.add('hidden');
+  rows.forEach(row => {
+    if (row.dataset.category !== 'game') {
+      row.classList.add('hidden');
     }
   });
 
@@ -76,11 +131,11 @@ title: "Nic Sawaya"
       filterBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const filter = btn.dataset.filter;
-      cards.forEach(card => {
-        if (card.dataset.category === filter) {
-          card.classList.remove('hidden');
+      rows.forEach(row => {
+        if (row.dataset.category === filter) {
+          row.classList.remove('hidden');
         } else {
-          card.classList.add('hidden');
+          row.classList.add('hidden');
         }
       });
     });
