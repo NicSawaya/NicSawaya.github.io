@@ -26,15 +26,6 @@ title: "Nic Sawaya"
         <span class="stat-number">2</span>
         <span class="stat-label">Engines Used</span>
       </div> -->
-    </div>
-    <div class="hero-btns">
-      <a href="#projects" class="btn-primary">View Projects</a>
-      <a href="#contact" class="btn-secondary">Contact</a>
-      <a href="#" class="btn-secondary" id="resume-btn">Resume</a>
-    </div>
-  </div>
-</section>
-
 <hr>
 
 <section id="projects">
@@ -42,7 +33,7 @@ title: "Nic Sawaya"
   <p class="section-sub">A collection of games and prototypes I've built and iterated on.</p>
   <div class="filter-tabs">
     <button class="filter-btn active" data-filter="game">Games</button>
-    <button class="filter-btn" data-filter=app">Apps</button>
+    <button class="filter-btn" data-filter="app">Apps</button>
     <button class="filter-btn" data-filter="prototype">Prototypes</button>
   </div>
   <div class="project-grid">
