@@ -111,7 +111,7 @@ title: "Nic Sawaya"
   <div class="project-grid">
 
     <a class="project-card" href="/projects/chroma-bench">
-      <img src="/assets/images/ChromaBenchBanner.png" class="project-thumb" alt="Chroma Bench">
+      <img src="/assets/images/ChromaBenchBannerV1.png" class="project-thumb" alt="Chroma Bench">
       <div class="project-tags-top">
         <span class="tag">Color Visualization</span>
         <span class="tag">Color Science UI</span>
