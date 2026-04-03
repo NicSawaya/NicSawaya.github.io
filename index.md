@@ -77,16 +77,19 @@ title: "Nic Sawaya"
   </div>
 </a>
 
-    <!-- PLACEHOLDER APP -->
-    <a class="project-card" data-category="app" href="#">
-      <img src="https://placehold.co/320x180/111/333?text=Coming+Soon" class="project-thumb" alt="App Title">
-      <div class="project-tags-top">
-        <span class="tag">Coming Soon</span>
-      </div>
-      <div class="project-title-bottom">
-        <h3>App Title</h3>
-      </div>
-    </a>
+
+<!-- chroma bech app -->
+    <a class="project-card" data-category="app" href="/projects/chroma-bench">
+  <img src="/assets/images/ChromaBenchBanner.png" class="project-thumb" alt="Chroma Bench">
+  <div class="project-tags-top">
+    <span class="tag">Color Visualization</span>
+    <span class="tag">Color Science UI</span>
+    <span class="tag">NDA‑Compliant</span>
+  </div>
+  <div class="project-title-bottom">
+    <h3>Chroma Bench</h3>
+  </div>
+</a>
 
   </div>
 </section>
