@@ -108,21 +108,19 @@ title: "Nic Sawaya"
   <h2>Apps</h2>
   <p class="section-sub">Software and tools I've designed and built.</p>
 
-  <div class="project-grid">
-
-    <a class="project-card" href="/projects/chroma-bench">
-  <img src="/assets/images/ChromaBenchBannerV1.png" class="project-thumb" alt="Chroma Bench" style="object-fit: contain; background: #1a1a1a;">
-  <div class="project-tags-top">
-    <span class="tag">Color Visualization</span>
-    <span class="tag">Color Science UI</span>
-    <span class="tag">NDA‑Compliant</span>
-  </div>
-  <div class="project-title-bottom">
-    <h3>Chroma Bench</h3>
-  </div>
-</a>
-
-  </div>
+ <div class="project-grid">
+  <a class="project-card" href="/projects/chroma-bench">
+    <img src="/assets/images/ChromaBenchBannerV1.png" class="project-thumb" alt="Chroma Bench" style="object-fit: contain; background: #111;">
+    <div class="project-tags-top">
+      <span class="tag">Color Visualization</span>
+      <span class="tag">Color Science UI</span>
+      <span class="tag">NDA‑Compliant</span>
+    </div>
+    <div class="project-title-bottom" style="background: rgba(0,0,0,0.85);">
+      <h3>Chroma Bench</h3>
+    </div>
+  </a>
+</div>
 </section>
 
 <hr>
