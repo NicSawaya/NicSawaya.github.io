@@ -71,27 +71,27 @@ title: "Orbit Protocol"
 
     <div class="tech-card">
       <h3>Engine</h3>
-      <p>Unreal Engine 5 — core gameplay systems, blueprint prototyping, and final C++ implementation.</p>
+      <p>Unreal Engine 5 — Blueprints and level building. </p>
     </div>
 
     <div class="tech-card">
       <h3>FPS Mechanics</h3>
-      <p>Custom character movement, weapon handling, and hit detection built in C++ with Blueprint exposure for rapid iteration.</p>
+      <p>Custom character movement, weapon handling, and hit detection built with Blueprint interfaces and data tables for rapid iteration.</p>
     </div>
 
     <div class="tech-card">
       <h3>Weapon Systems</h3>
-      <p>Modular weapon framework allowing swappable fire modes, attachments, and procedural recoil patterns.</p>
+      <p>Modular weapon framework allowing for a wide verity of weapons and weapon stats. </p>
     </div>
 
     <div class="tech-card">
       <h3>Ability Framework</h3>
-      <p>Data-driven ability system built on Unreal's Gameplay Ability System (GAS) with custom extensions.</p>
+      <p>Data-driven ability system built on Unreal's Gameplay Ability System (GAS).</p>
     </div>
 
     <div class="tech-card">
       <h3>UI / UX</h3>
-      <p>In-world diegetic UI elements alongside minimal HUD design to preserve immersion during gameplay.</p>
+      <p>In-world diegetic UI elements alongside minimal HUD design.</p>
     </div>
 
     <div class="tech-card">
