@@ -43,15 +43,15 @@ title: "Velocity Loop"
     </div>
     <div class="tech-card">
       <h3>Procedural Generation</h3>
-      <p>Tile-based procedural level system that dynamically spawns and despawns track sections, obstacles, and coin patterns as the player runs.</p>
+      <p>Tile based procedural level system that dynamically spawns and despawns track sections, obstacles, coins, and powerups as the player runs.</p>
     </div>
     <div class="tech-card">
       <h3>3rd Person Movement</h3>
-      <p>Custom character movement with lane-switching, jump, and slide mechanics tuned for fast-paced feel.</p>
+      <p>Custom character movement with lane switching, jump, and slide mechanics.</p>
     </div>
     <div class="tech-card">
       <h3>Difficulty Scaling</h3>
-      <p>Speed and obstacle density scale over time using a curve-driven progression system.</p>
+      <p>Speed scales over time using for faster player reaction times.</p>
     </div>
     <div class="tech-card">
       <h3>Coin & Score System</h3>
