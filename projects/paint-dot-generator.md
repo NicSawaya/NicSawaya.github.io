@@ -67,6 +67,15 @@ title: "Paint Dot Generator"
 
 <hr>
 
+<section id="project-live">
+  <h2>Live Tool</h2>
+  <div class="iframe-embed">
+    <iframe src="https://nicsawaya.github.io/PaintBlobTool/" title="Paint Dot Generator"></iframe>
+  </div>
+</section>
+
+<hr>
+
 <section id="project-screenshots">
   <h2>Screenshots</h2>
   <div class="screenshot-gallery">
