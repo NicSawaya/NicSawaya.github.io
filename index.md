@@ -109,15 +109,15 @@ title: "Nic Sawaya"
   <p class="section-sub">Software and tools I've designed and built.</p>
 
 
-  <a class="project-card" href="/projects/paint-dot-generator">
-  <img src="/assets/images/PaintDotBanner.png" class="project-thumb" alt="Paint Dot Generator">
+ <a class="project-card" href="/projects/paint-dot-generator">
+  <img src="/assets/images/PaintDotBanner.png" class="project-thumb" alt="Paint Dot Generator" style="object-fit: contain; background: #111;">
   <div class="project-tags-top">
     <span class="tag">Web App</span>
     <span class="tag">JavaScript</span>
     <span class="tag">CSS</span>
     <span class="tag">HTML</span>
   </div>
-  <div class="project-title-bottom">
+  <div class="project-title-bottom" style="background: rgba(0,0,0,0.85); padding: 0.4rem 1rem;">
     <h3>Paint Dot Generator</h3>
   </div>
 </a>
