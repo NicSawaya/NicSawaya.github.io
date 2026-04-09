@@ -76,17 +76,6 @@ title: "Paint Dot Generator"
 
 <hr>
 
-<section id="project-screenshots">
-  <h2>Screenshots</h2>
-  <div class="screenshot-gallery">
-    <img src="/assets/images/PDG_1.png" alt="Screenshot 1">
-    <img src="/assets/images/PDG_2.png" alt="Screenshot 2">
-    <img src="/assets/images/PDG_3.png" alt="Screenshot 3">
-    <img src="/assets/images/PDG_4.png" alt="Screenshot 4">
-    <img src="/assets/images/PDG_5.png" alt="Screenshot 5">
-    <img src="/assets/images/PDG_6.png" alt="Screenshot 6">
-  </div>
-</section>
 
 <div class="lightbox-overlay" id="lightbox">
   <button class="lightbox-close" id="lightbox-close">✕</button>
