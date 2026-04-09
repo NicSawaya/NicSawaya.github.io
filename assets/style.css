@@ -558,7 +558,8 @@ Orbit Protocol Page
 }
 .iframe-embed {
     position: relative;
-    width: 100%;
+    width: 120%;
+    margin-left: -10%;
     height: 600px;
     border-radius: 12px;
     overflow: hidden;
