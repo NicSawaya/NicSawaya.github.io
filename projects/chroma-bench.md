@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chroma Bench"
+title: "Chroma Bench (Beta)"
 ---
 
 <section id="project-hero">
