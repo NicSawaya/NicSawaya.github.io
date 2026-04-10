@@ -30,7 +30,7 @@ title: "Nic Sawaya"
     <div class="hero-btns">
       <a href="#projects" class="btn-primary">View Projects</a>
       <a href="#contact" class="btn-secondary">Contact</a>
-      <a href="/assets/ResumeV2.pdf" class="btn-secondary" target="_blank">Resume</a>
+      <a href="/assets/Resume.pdf" class="btn-secondary" target="_blank">Resume</a>
     </div>
   </div>
 </section>
