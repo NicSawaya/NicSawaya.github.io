@@ -55,7 +55,7 @@ title: "Chroma Bench (Beta)"
     </div>
     <div class="tech-card">
       <h3>NDA‑Compliant Implementation</h3>
-      <p>Core algorithms and data processing pipelines developed under NDA. Implementation details are confidential — available for discussion in private settings.</p>
+      <p>Core algorithms and data processing pipelines developed under NDA. Implementation details are confidential available for discussion in private settings.</p>
     </div>
     <div class="tech-card">
       <h3>Secure Data Handling</h3>
